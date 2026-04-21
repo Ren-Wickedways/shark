@@ -63,8 +63,9 @@ button.card-button {
 }
 
 .item-shark-card img {
-  width: 50%;
+  width: 100%;
   height: 50%;
   object-fit: cover;
   border-radius: 8px;
+ 
 }
