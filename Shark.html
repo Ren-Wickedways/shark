@@ -2,13 +2,21 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles/index_styles.css">
+    <link rel="stylesheet" href="styles\Shark.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sharks</title>
 </head>
+<div class="Navbar">
+    <ul >
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">Sharks</a></li>
+  <li><a href="contact.asp">About</a></li>
+</ul>
+</div>  
 
 <body>
+  
 <h1>Sharks</h1>
 <div class="Shark-card">
     
@@ -16,7 +24,7 @@
         <h1 class="Shark-title">Basking Shark</h1>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cetorhinus_maximus_by_greg_skomal.JPG/960px-Cetorhinus_maximus_by_greg_skomal.JPG" alt="Basking Shark">
         <p class="text-blurb"></p>
-        <button class="card-button hover-item">></button>
+        <button class="card-button hover-item" onclick="location.href='html/BaskingShark.html'">></button>
     </div>
 
     <div class="item-shark-card">
@@ -55,9 +63,6 @@
     </div>
 
 </div>
-<audio id="hoverSound">
-  <source src="sounds\click.mp3" type="audio/mpeg">
-</audio>
-<script src="Scripts\cards.js"></script>
+
 </body>
 </html>
